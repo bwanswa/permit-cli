@@ -60,7 +60,6 @@ export const PolicyTables: React.FC<PolicyTablesProps> = ({
 			table.push(row);
 		});
 	});
-
 	return (
 		<Box flexDirection="column" marginTop={1}>
 			<Text>{table.toString()}</Text>
